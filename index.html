@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="hu">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Weboldal logikai részeinek meghatározása</title>
+    <style>
+        section {
+            border: 2px solid brown;
+            margin: 5px;
+            padding: 5px 20px;
+        }
+
+        article {
+            background-color: lightgoldenrodyellow;
+        }
+
+        section>p {
+            font-size: 2em;
+            color: red;
+        }
+
+        header {
+            background-color: peru;
+            height: 2cm;
+            text-align: center;
+        }
+
+        nav {
+            width: 80%;
+            border: double 4px darkred;
+            margin: auto;
+        }
+
+        nav>ul>li {
+            display: inline;
+            background-color: orange;
+            color: red;
+
+        }
+
+        footer {
+            background-color: springgreen;
+        }
+    </style>
+</head>
+
+<body>
+    <header><img src="OMEGALUL.jpg" width="1100" height="75"></header>
+    <nav>
+        <h2>
+            Navigációs rész /Innen lehet elérni ebben az esetben a rovatokat/
+        </h2>
+        <ul>
+            <li><a href="#Belfoldihirek">Rovat 1 (Belföldi hírek)</a></li>
+            <li><a href="#sport">Rovat 2 (Sport)</a></li>
+            <li><a href="#twitch">Rovat 3 (Twitch)</a></li>
+        </ul>
+    </nav>
+    <section>
+        <p>Kiemelt híreink</p>
+        <article>
+            <h2>Új koronavírus variáns jelent meg</h2>
+            <p>
+                A Dél-afrikai Köztársaságban a koronavírus új variánsát fedezték fel, amely a B.1.1.529 nevet kapta,
+                számoltak be a helyi hatóságok csütörtökön.
+            </p>
+            <p>
+                Tulio de Oliveira virológus online sajtótájékoztatóján azt mondta: az új variáns aggodalomra ad okot,
+                mert több mint harminc mutációval rendelkezik, amelyek szokatlan mintázatba rendeződtek. Ennek
+                következtében a variáns könnyebben kikerülheti a szervezet immunválaszát, valamint gyorsabban terjed a
+                fertőzés.
+            <p>
+                Vizsgálatok szerint a B.1.1.529 gyorsan terjed a legnagyobb népsűrűségű Gauteng tartományban: a tudósok
+                szerint az új fertőzések akár 90 százalékát okozhatja ez a variáns.
+            </p>
+        </article>
+        <article>
+            <h2>Élete végéig börtönben maradhat az olimpiai szervezőbizottság volt elnöke</h2>
+            <p>
+                Közel 31 év börtönbüntetésre ítélték Carlos Arthur Nuzmant, a Brazil Olimpiai Bizottság (COB) és a riói
+                olimpia szervezőbizottságának volt elnökét, többek között azért, mert szavazatokat vásárolt az ötkarikás
+                játékok rendezésének elnyeréséhez.
+                A 79 esztendős jogászt korrupció, bűnszervezetben való részvétel, pénzmosás és adócsalás vádjában
+                találták bűnösnek, ezért 30 év 11 hónap börtönbüntetést szabtak ki rá. Nuzmannak addig nem kell börtönbe
+                vonulnia, míg a fellebbezését meg nem hallgatja a bíróság.
+            </p>
+            <p>
+                Nuzman, illetve további öt személy ellen
+                2017. október 17-én emeltek vádat vesztegetés, pénzmosás és pénzügyi szabályok megsértése miatt.
+            </p>
+            <p>
+                Nuzmant azzal a gyanúval tartóztatta le a brazil rendőrség, hogy az ő segítségével kétmillió dollárnyi
+                kenőpénzt utaltak át elsősorban afrikai NOB-tagoknak a 2016-os ötkarikás helyszínről döntő 2009-es
+                voksolás előtt. A letartóztatás után a NOB a szervezetben betöltött minden tisztségéből felfüggesztette
+                Nuzmant, aki a nemzetközi bizottság tiszteletbeli tagja volt, illetve a 2020-as tokiói játékok
+                előkészületeit felügyelő bizottságban tevékenykedett.
+            </p>
+        </article>
+
+        <section id="Belfoldihirek">
+            <p>Belföldi hírek</p>
+
+            <article>
+                <h2>Látványos videó készült az új magyar harckocsik lövészetéről /article = cikk/</h2>
+                <p>
+                    A harcjárművek az MH 25. Klapka György Lövészdandár 11. Harckocsizászlóaljának kötelékébe
+                    csatlakoztak,
+                    ezért Tatán találkozhatunk velük. A Leopardok átadásáról élőben tudósítottunk:
+                </p>
+            </article>
+
+            <article>
+                <h2>A Magyar Telekom történetének legjelentősebb kötvénykibocsátását hajtotta végre /article/</h2>
+                <p>A Magyar Telekom által tartott mai kötvényaukción:</p>
+                <ul>
+                    <li>a benyújtott összes ajánlat 96,95 milliárd forint volt, </li>
+                    <li>végül a vállalat 70,83 milliárd forint forrást vont be, </li>
+                    <li>a kötvények futamideje 7 év és fix kamatozásúak,</li>
+                    <li> az aukción 1,26 százalékos átlaghozam alakult ki.</li>
+                </ul>
+                <p>A Magyar Telekom vezérigazgatójának, Rékasi Tibornak a nyilatkozata szerint:</p>
+            </article>
+
+            <article>
+                <h2>Müller Cecília elmondta, mely magyar városokban robbanhat be a járvány a következő napokban
+                    /article/</h2>
+                <p>
+                    A naponta közzétett számadatokon túl számos egyéb számadat, elemzés, járványgörbe vizsgálat előtérbe
+                    kerül, megtárgyalásra kerül, az operatív törzs figyelemmel kíséri a változásokat, a járvány
+                    dinamikáját.
+                    Fontos a döntések meghozatalánál az egészségügyi rendszer terheltsége, de számos más szempont is
+                    van. Az
+                    operatív törzs megfogalmazza a javaslatait és a kormány dönt. A holnapi kormányülésen vizsgálják
+                    felül a
+                    döntéseket, mert eltelt két hét a szigorúbb szabályok bevezetése óta – mondta el Müller Cecília.
+                </p>
+            </article>
+
+        </section>
+
+        <section id="sport">
+            <p>Sport események</p>
+            <article>
+                <h2>Úszás: Szabó túl a koronavíruson, a hét végén versenyez</h2>
+                <p>
+                    A november első hetében megrendezett kazanyi rövid pályás úszó Európa-bajnokságon az 50 és a 100
+                    pillangó mellett az 50 gyorson is aranyérmes Szabó Szebasztián enyhe és gyors lefolyású
+                    koronavírus-betegsége után a hét végén újra rajtkőre állhat.
+                </p>
+                <p>
+                    Szabó nem verte nagy dobra, hogy az Eb után Hosszú Katinkához és Milák Kristófhoz hasonlóan ő is
+                    megfertőződött, de a tíznapos otthoni bezárkózásnak így is alá kellett vetnie magát.
+                </p>
+                <p>
+                    „Az Eb után elvégzett teszt mutatott ki pozitív eredményt nálam, a koronavírusos betegségből viszont
+                    szerencsére csak annyit éreztem, hogy a szokásosnál kicsit gyorsabban fáradok el, az orrom pedig
+                    rendesen bedugult. Bosszankodtam a kényszerszünet miatt, noha az is igaz, hogy a nagy hajtás után
+                    rám fért már a pihenő. Miután kiszabadultam a karanténból, Budapestre mentem, ahol a vizsgálatomat
+                    követően visszakaptam a sportorvosi engedélyemet” – idézi az SzPress Hírszolgálat a Győri Úszó SE
+                    versenyzőjét, aki a hét végén már versenyezhet.
+                </p>
+                <p>
+                    Szabó természetesen ott lesz december közepén az abu-dzabi rövid pályás világbajnokságon is, s arra
+                    a három számra összpontosít, amelyekben Kazanyban kontinensbajnok lett.
+                </p>
+            </article>
+            <article>
+                <h2>
+                    Anglia: Southgate 2024-ig hosszabbított
+                </h2>
+                <p>
+                    Gareth Southgate, az angol labdarúgó-válogatott szövetségi kapitánya új, 2024-ig szóló szerződést
+                    írt alá – számolt be róla a helyi sportági szövetség, az FA a hivatalos honlapján.
+                </p>
+                <p>
+                    Az 51 éves tréner 2016 novemberében megbízott szövetségi kapitányként vette át az angol válogatott
+                    irányítását Sam Allardyce-tól, majd véglegesítették a pozíciójában. Eddigi megállapodása a 2022-es
+                    világbajnokság után járt volna le, ezt 2024 decemberéig toldották meg a felek.
+                </p>
+                <p>
+                    „Továbbra is kiváltság ezt a csapatot vezetni. Nagy lehetőségek előtt állunk” – idézte a BBC a
+                    kapitányt a szerződés aláírása után.
+                </p>
+                <p>
+                    Southgate vezetésével az angol válogatott 2018-ban világbajnoki elődöntőbe jutott, egy évvel később
+                    bronzérmet nyert a Nemzetek Ligájában, idén pedig Európa-bajnoki döntőt játszhatott – amelyet
+                    tizenegyespárbajban veszített el Olaszországgal szemben –, valamint kijutott a jövő évi katari
+                    vb-re. Vele együtt Steve Holland asszisztensedző is meghosszabbította a szerződését 2024-ig az angol
+                    szövetségnél.
+                </p>
+                <p>
+                    Southgate-tel a kispadon az angol nemzeti együttes az eddigi 68 mérkőzéséből 44-et megnyert, 14-et
+                    elveszített, valamint 10 döntetlent játszott.
+                </p>
+            </article>
+        </section>
+        <section id="twitch">
+            <p>Twitch hírek</p>
+            <article>
+                <h2>
+                    HOSSZÚ IDŐ UTÁN VÉGÜL VISSZATÉR DISGUISED TOAST A TWITCH-RE
+                </h2>
+                <p>
+                    2 év után láthatjuk ismét a streamert a lila platformon.
+                </p>
+                <p>
+                    Twitter-oldalán jelentette be Jeremy "Disguised Toast" Wang, hogy hosszú idő után ismét a Twitch-en
+                    fog közvetíteni, azok után, hogy múlt héten bejelentette, elhagyja a Facebook Gaminget. Erről egy
+                    videót is készített a tajvani-kanadai streamer.
+                </p>
+                <p>
+                    Disguised Toast november 17-én osztotta meg a hírt, hogy elhagyja a Facebook Gaminget, szinte napra
+                    pontosan 2 évvel azután, hogy megegyezett velük a platformra való költözéssel. Ezen bejelentést
+                    követően szinte azonnal a rajongók máris azt kérték tőle, hogy térjen vissza a Twitchre. Később,
+                    november 22-én egy barátja streamjében félig-meddig poénosan fel is tette azt a kérdést: "Hova
+                    menjek, srácok: YouTube vagy Twitch?". Ezt követte végül november 24-én a fenti bejelentés.
+                </p>
+                <p>
+                    Ugyan Wang a Facebookkal szerződést is kötött a költözésről, a Twitch-csatornáján ugyanúgy
+                    közvetített, de csak a Just Chatting kategóriában, ezt meg is tette, annak ellenére, hogy a platform
+                    megszüntette a partnerszerződését. Azzal viszont, hogy visszatért oda, ahol eredetielg is elkezdte
+                    karrierjét, a cég ezt ismét megkötötte vele, saját maga és 2 millió követőjének legnagyobb örömére.
+                </p>
+            </article>
+            <article>
+                <h2>
+                    NINJA MOST MÁR A HÁZI FELADAT MEGOLDÁSÁBAN IS SEGÍT
+                </h2>
+                <p>
+                    Váratlan helyről kapott tanácsot egy néző.
+                </p>
+                <p>
+                    Az emberi agy az emberi szervezet egyik igen fontos része, egyesek szerint a legfontosabb. Új
+                    tudással megtölteni pedig hosszútávon is igen hasznos tud lenni, ezt pedig a Twitch-streamer Ninja
+                    is pontosan jól tudja.
+                </p>
+                <p>
+                    Történt ugyanis, hogy egy nap SypherPK-val épp Fortnite-oztak, Ninja pedig időt szakított egy
+                    nézőjére, egészen pontosan annak a házi feladatával kapcsolatos problémáira. Egy néző ugyanis
+                    megjegyezte, hogy képtelen rávenni magát arra, hogy "az unalmas házit megcsinálja". Ninja erre azt a
+                    tanácsot adta, ahogyan ő csinálta meg a sajátját anno: két meccs között szakított rá időt, hogy
+                    haladjon is vele valamennyit.
+                </p>
+                <p>
+                    Bár a tanárok nagy része ezzel a tanáccsal nem értene egyet, hanem inkább azt mondanák, hogy ülj le
+                    és csak a házi feladatra koncentrálj, Ninja tanácsa is ésszerűnek tűnik. Meccskeresés közben amúgyse
+                    tudná az ember hasznosan eltölteni az időt, így pedig ezek a percek is produktívan telnek el. Persze
+                    mindenkinek magának kell eldöntenie, mennyire tud ehhez alkalmazkodni, illetve a házi feladat
+                    mennyiségétől is függ (a "Wales-i bárdok" című balladát például nehéz lenne ilyen rövid idők alatt
+                    megtanulni), de ha sok kicsi feladatot kell csak megoldani, akár egy próbát is megérhet.
+                </p>
+            </article>
+        </section>
+
+    </section>
+    <footer>
+        Ez itt a lábléc!<br>
+        Ide kerülnek pld. Impresszium, elérhetőségek, közösségi média, stb
+    </footer>
+</body>
+
+</html>
